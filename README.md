@@ -9,11 +9,13 @@ Uses [Docker](https://github.com/docker/docker), [Node](https://github.com/nodej
 - [ ] Focus tab when added ([**initialSelectedIndex**](https://github.com/callemall/material-ui/pull/389/files) already exists in Material-UI Tabs, could use a **selectedIndex** also);
 - [ ] Lazy load the tab content (using [require.ensure](http://blog.netgusto.com/asynchronous-reactjs-component-loading-with-webpack/));
 - [ ] Tests;
+- [ ] Add a [KendoUI Module](http://ifandelse.com/using-reactjs-and-kendoui-together/)
 
 ## Usage
 
 ### Setup
-If you want an isolated enviroment, install Docker, navigate to the base folder and run the start-dev.sh script.
+If you want an isolated enviroment, install Docker, navigate to the base folder and run
+docker build . and sh start-dev.sh.
 This pulls an image with Node and starts an interactive container, from there you have a full Node enviroment.
 Instead you can install Node on your machine.
 
